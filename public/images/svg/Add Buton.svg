@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="91" height="93" viewBox="0 0 91 93">
+  <defs>
+    <filter id="add_circle" x="0" y="0" width="91" height="93" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-color="#f49d2a" flood-opacity="0.388"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Add_Buton" data-name="Add Buton" transform="translate(22.5 16.5)">
+    <g transform="matrix(1, 0, 0, 1, -22.5, -16.5)" filter="url(#add_circle)">
+      <ellipse id="add_circle-2" data-name="add circle" cx="23" cy="24" rx="23" ry="24" transform="translate(22.5 16.5)" fill="#f49d2a"/>
+    </g>
+    <text id="_" data-name="+" transform="translate(23.188 34.891)" fill="#fff" font-size="30.542" font-family="Poppins-Medium, Poppins" font-weight="500" letter-spacing="0.04em"><tspan x="-10.903" y="0">+</tspan></text>
+  </g>
+</svg>
